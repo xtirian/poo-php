@@ -1,0 +1,123 @@
+/* Estilo Moderno para Anotações de PHP/POO */
+:root {
+    --primary: #4F5B93; /* Cor oficial do PHP */
+    --secondary: #8892BF;
+    --dark: #2c3e50;
+    --bg: #f8f9fa;
+    --code-bg: #282a36; /* Estilo Dracula para código */
+    --text: #333;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text);
+    background-color: var(--bg);
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    color: var(--primary);
+    border-bottom: 3px solid var(--primary);
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+}
+
+h2 {
+    color: var(--secondary);
+    margin-top: 30px;
+    background: #fff;
+    padding: 10px;
+    border-left: 5px solid var(--primary);
+    border-radius: 4px;
+}
+
+/* Container das anotações */
+.anotacao {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* Estilo de Código (PHP) */
+pre {
+    background-color: var(--code-bg);
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 6px;
+    overflow-x: auto;
+    font-family: 'Fira Code', 'Courier New', Courier, monospace;
+    border: 1px solid #444;
+}
+
+code {
+    background: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #d63384;
+}
+
+/* Destaques para conceitos de POO */
+.conceito-chave {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 10px 15px;
+    margin: 15px 0;
+    font-style: italic;
+}
+
+/* Badges para Status */
+.badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    background: var(--primary);
+    color: white;
+}
+
+ul, ol {
+    background: #ffffff;
+    padding: 20px 20px 20px 40px;
+    border-radius: 8px;
+    border: 1px dashed var(--secondary);
+    margin: 20px 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #444;
+}
+
+li::marker {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+/* Estilo para links de referência */
+a {
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    border-bottom: 1px solid var(--primary);
+    color: var(--secondary);
+}
+
+/* Um estilo de "nota de rodapé" ou observação rápida */
+.tip {
+    font-size: 0.9rem;
+    color: #666;
+    display: block;
+    margin-top: 5px;
+}
