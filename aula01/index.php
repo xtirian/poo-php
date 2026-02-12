@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>POO - Aula 1</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -55,9 +55,9 @@
         <li><strong>Encapsulamento:</strong> Proteger os dados (<code>public</code>, <code>private</code>, <code>protected</code>).</li>
         <li><strong>Herança:</strong> Reutilizar código de classes pai.</li>
         <li><strong>Polimorfismo:</strong> Objetos diferentes respondendo à mesma mensagem.</li>
-    </ul>
+        </ul>
 
-    <p>Mais detalhes na <a href="https://www.php.net/manual/pt_BR/language.oop5.php" target="_blank">Documentação Oficial</a>.</p>
+        <p>Mais detalhes na <a href="https://www.php.net/manual/pt_BR/language.oop5.php" target="_blank">Documentação Oficial</a>.</p>
     </div>
     
 </body>
